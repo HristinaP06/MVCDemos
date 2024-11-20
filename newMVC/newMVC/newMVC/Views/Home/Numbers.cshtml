@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Numbers";
+}
+
+<h2>Nums 1 ... 50</h2>
+<ul>
+    @for (var i = 1; i < (int)ViewData["maxNum"]; i++)
+    {
+        <li>@i</li>
+}
+</ul>
+
